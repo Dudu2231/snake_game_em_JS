@@ -1,0 +1,6 @@
+Explicando como funciona a movimentação:
+O canvas reproduz um plano cartesiano, Y representa o eixo vertical e X o eixo horizontal. Para me mover a direita somo no eixo X(horizontal), para a esquerda, subtraio. Para me mover para cima, sutraio no eixo (vertical) e para ir para baixo, somo no eixo Y.
+
+A variável boxSize representa o tamanho de cada "caixinha" que está contida no canvas, caso cada "caixinha" tenha um tamanho Z, ao calcular a coordenada, preciso levar em consideração o tamanho Z. Por exemplo:
+Quero que a comida esteja posicionada no início, na linha(x)= 1 e coluna(y)=1. Devo considerar o tamanho da boxSize para fazer o poscionamento da comida. Ou seja:
+Coordenada*boxSize.
